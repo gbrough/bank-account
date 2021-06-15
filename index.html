@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-  <title>Enter New Project</title>
+  <title>The Bank Bank</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -18,7 +18,7 @@
       <div class="col-md-6 ">
         <div class="p-3 register">
           <h3>Register New Account</h3>
-          <form id="new-contact">
+          <form id="new-account">
             <div class="form-group">
               <label for="new-name">Name</label>
               <input type="text" class="form-control" id="new-name">
@@ -34,7 +34,11 @@
       <div class="col-md-6 ">
         <div class="p-3 money-management">
           <h3>Deposit or Withdraw Funds</h3>
-          <form id="deposit-withdraw">
+          <form id="money-management">
+            <div class="form-group">
+              <label for="account-id">Account Number</label>
+              <input class="form-control" type="number" id="account-id">
+            </div>
             <div class="form-group">
               <label for="deposit-amount">Deposit Amount</label>
               <input class="form-control" type="number" id="deposit-amount">
@@ -43,14 +47,16 @@
               <label for="withdraw-amount">Withdrawl Amount</label>
               <input class="form-control" type="number" id="withdraw-amount">
             </div>
-            <button type="submit" class="btn-primary">Confirm</button>
+            <button type="submit" class="btn-primary">Submit</button>
           </form>
         </div>
       </div>
     </div>
     <hr>
     <div class="row balance">
-      <h2>Current Balance:</h2>
+      <div class="col">
+        <h2>Account Information</h2>
+      </div>
     </div>
   </div>
   </div>

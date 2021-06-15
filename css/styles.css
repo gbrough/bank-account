@@ -1,0 +1,15 @@
+body {
+  background-color: #8ecae6;
+}
+.register {
+  background-color:#219ebc ;
+}
+.money-management {
+background-color: #ffb703;
+}
+.balance {
+background-color: #fb8500;
+}
+.register, .money-management {
+  padding:1rem;
+}

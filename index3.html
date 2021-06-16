@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/scripts3.js"></script>
+  <title>Bank Account</title>
+</head>
+<body>
+  <div class="container">
+    <h1> Welcome to the best bank!</h1>
+    <div>
+      <form id="new-account">
+        <h2> Register a new account</h2>
+        <div class="form-group">
+          <label for="name"> Name:</label>
+          <input type="text" id="name">
+        </div>
+        <div class="form-group">
+          <label for="initialDeposit">Initial Deposit</label>
+          <input type="text" id="initialDeposit">
+        </div>
+          <button type="submit" class="btn-primary">Submit</button>
+      </form>
+    </div>
+    <!-- <div class="col-md-1"></div> -->
+    <div class="col-md-6">
+      <form id="deposit">
+        <h2> Deposit or withdrawal</h2>
+        <div class="form-group">
+          <label for="accountID"> Account ID:</label>
+          <input type="text" id="accountID">
+        </div>
+          <div class="form group">
+            <label for="deposit">Deposit amount:</label>
+            <input type="text" id="deposit">
+          </div>
+          <div class="form group">
+            <label for="withdrawal">Withdrawal amount</label>
+            <input type="text" id="withdrawal">
+          </div>
+            <button type="submit" class="btn-primary">Deposit/Withdrawl</button>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <h2>Account List</h2>
+          <ul id="accounts">
+          </ul>
+    </div>
+    <div class="col-md-6">
+      <div id="show-account">
+        <h2>Account Details</h2>
+        <p span class="name">Name</p>
+        <Account span class="accountID"></Account>Account ID:</p>
+        <p span class="balance">Balance:</p>
+        <div id="buttons"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</body>
+
+</html>
